@@ -3515,7 +3515,7 @@
 			<var name="pageName" value="Calendar Page" />
 		</execute>
 
-		<execute macro="Search#searchPG">
+		<execute macro="Search#searchPGWithMaximizedSearchPortlet">
 			<var name="searchTerm" value="tag1" />
 		</execute>
 

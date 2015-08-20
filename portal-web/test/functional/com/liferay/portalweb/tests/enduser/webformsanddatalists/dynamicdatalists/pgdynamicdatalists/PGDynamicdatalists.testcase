@@ -679,7 +679,7 @@
 		</execute>
 	</command>
 
-	<command name="SearchDynamicDataListsRecordsAsUserWithNoPermissions" priority="4">
+	<command known-issues="LPS-58055" name="SearchDynamicDataListsRecordsAsUserWithNoPermissions" priority="4">
 		<execute macro="Page#gotoCP">
 			<var name="portletName" value="Roles" />
 		</execute>

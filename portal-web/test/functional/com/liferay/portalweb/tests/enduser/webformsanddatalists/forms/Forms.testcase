@@ -404,7 +404,7 @@
 		</for>
 	</command>
 
-	<command name="SubmitFormWithMultipleFields" priority="4">
+	<command name="SubmitFormWithMultipleFieldsAndViewEntriesViaDescriptiveDisplay" priority="4">
 		<execute macro="Page#gotoContentCP">
 			<var name="portletName" value="Forms" />
 		</execute>

@@ -1466,6 +1466,8 @@
 		<if>
 			<isset var="relatedAssetTitle" />
 			<then>
+				<execute function="AssertClick" locator1="AP#ASSET_ABSTRACT_CALENDAR_EVENT_TITLE" value1="${eventTitle}" />
+
 				<execute function="AssertTextEquals" locator1="AssetRelatedAssets#HEADER" value1="Related Assets:" />
 				<execute function="AssertTextEquals" locator1="AssetRelatedAssets#ASSET_TITLE" value1="${relatedAssetTitle}" />
 			</then>

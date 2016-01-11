@@ -1472,8 +1472,6 @@
 				<execute function="AssertTextEquals" locator1="AssetRelatedAssets#ASSET_TITLE" value1="${relatedAssetTitle}" />
 			</then>
 		</if>
-
-		<execute macro="CalendarEvent#viewApprovedEventRSVPButtons" />
 	</command>
 
 	<command name="viewDetailsRate4Stars">

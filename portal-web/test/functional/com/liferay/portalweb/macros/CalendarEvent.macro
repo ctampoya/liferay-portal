@@ -1453,7 +1453,7 @@
 		</execute>
 	</command>
 
-	<command name="viewDetailsInPortlet">
+	<command name="viewDetailsInAssetPublisherPortlet">
 		<execute function="AssertTextEquals" locator1="AP#ASSET_ABSTRACT_CALENDAR_EVENT_TITLE" value1="${eventTitle}" />
 
 		<execute macro="AssetPublisherPortlet#viewCalendarDetailsResources">

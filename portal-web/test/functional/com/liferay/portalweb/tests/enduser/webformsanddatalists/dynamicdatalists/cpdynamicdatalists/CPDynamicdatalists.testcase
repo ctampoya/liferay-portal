@@ -688,7 +688,7 @@
 		</execute>
 	</command>
 
-	<command name="AddListAndRecordWithToDoPredefinedDataDefinition" priority="4">
+	<command name="AddListAndRecordWithToDoPredefinedDataDefinition" priority="5">
 		<property name="portal.acceptance" value="true" />
 
 		<var name="ddlDataDefinitionName" value="To Do" />

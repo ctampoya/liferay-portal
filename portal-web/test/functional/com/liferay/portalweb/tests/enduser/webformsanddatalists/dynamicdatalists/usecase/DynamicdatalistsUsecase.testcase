@@ -2808,8 +2808,8 @@
 		</execute>
 	</command>
 
-	<command name="ViewVisualGroupingOfRepeatableNestedFields" priority="3">
-		<description message="This is a use case for LPS-42060." />
+	<command name="ViewRepeatableNestedFields" priority="3">
+		<description message="This is a use case for LPS-63290." />
 
 		<execute macro="Navigator#openURL" />
 
@@ -2874,6 +2874,6 @@
 		<execute macro="DDLRecord#viewNestedFieldsRepeating">
 			<var name="nestedParentFieldFieldName" value="Text" />
 			<var name="nestedChildFieldFieldName" value="DocumentsAndMedia" />
-		<execute>
+		</execute>
 	</command>
 </definition>

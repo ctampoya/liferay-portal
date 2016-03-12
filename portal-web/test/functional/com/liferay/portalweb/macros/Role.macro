@@ -313,7 +313,7 @@
 			<isset var="roleUser" />
 			<then>
 				<var name="key_roleUser" value="${roleUser}" />
-				
+
 				<execute function="AssertTextEquals" locator1="Roles#ROLE_TABLE_USER_TITLE" value1="${roleUser}" />
 				<execute function="Click" locator1="Roles#ROLE_TABLE_ACTIONS" />
 			</then>

@@ -141,7 +141,6 @@
 		<execute macro="Calendar#view">
 			<var name="calendarName" value="${calendarName}" />
 			<var name="calendarType" value="My Calendars" />
-			<var name="resourceNameList" value="${resourceNameList}" />
 			<var name="user" value="${user}" />
 		</execute>
 	</command>
@@ -2656,7 +2655,6 @@
 		<execute macro="Calendar#view">
 			<var name="calendarName" value="${calendarNameEdit}" />
 			<var name="calendarType" value="My Calendars" />
-			<var name="resourceNameList" value="${resourceNameList}" />
 			<var name="user" value="${user}" />
 		</execute>
 	</command>

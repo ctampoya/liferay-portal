@@ -121,6 +121,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -230,6 +234,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -369,6 +377,10 @@
 			<var name="kfProcessName" value="${kfProcess1Name}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcess1Name}" />
 		</execute>
@@ -407,6 +419,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcess2Name}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -601,6 +617,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="Kaleo Forms Process" />
 		</execute>
@@ -727,6 +747,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -919,6 +943,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -1120,6 +1148,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -1344,6 +1376,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="Kaleo Forms Process" />
 		</execute>
@@ -1535,6 +1571,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -1790,6 +1830,10 @@
 			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#editProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -1819,6 +1863,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -2197,6 +2245,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -2502,6 +2554,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -2652,6 +2708,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -3071,6 +3131,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -3263,6 +3327,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -3436,6 +3504,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -3596,6 +3668,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -3791,6 +3867,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -3962,6 +4042,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -4181,6 +4265,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="Kaleo Forms Process" />
 		</execute>
@@ -4329,6 +4417,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -4459,6 +4551,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -4678,6 +4774,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -4744,6 +4844,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -4879,6 +4983,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -5075,6 +5183,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -5168,6 +5280,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -5231,6 +5347,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -5274,6 +5394,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -5462,6 +5586,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -5525,6 +5653,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName} Edited" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -5616,6 +5748,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -5673,6 +5809,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName} Edited" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -5771,6 +5911,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -5884,6 +6028,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -5959,6 +6107,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -6002,6 +6154,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -6209,6 +6365,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -6455,6 +6615,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -6713,6 +6877,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -6902,6 +7070,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -7136,6 +7308,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -7280,6 +7456,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -7477,6 +7657,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -7628,6 +7812,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -7743,6 +7931,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -7874,6 +8066,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -8044,6 +8240,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -8385,6 +8585,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -8561,6 +8765,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -8716,6 +8924,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -8953,6 +9165,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -8985,7 +9201,7 @@
 		<execute macro="Workflow#updateDueDateTaskByActions">
 			<var name="workflowActivityComment" value="Updating the due date on a process assigned to my roles." />
 			<var name="workflowAssetTitle" value="${kfProcessName}" />
-			<var name="workflowAssetType" value="${workflowAssetType}"/>
+			<var name="workflowAssetType" value="${workflowAssetType}" />
 			<var name="workflowDueDate" value="04/01/2017" />
 			<var name="workflowDueDateTime" value="05:30 PM" />
 			<var name="workflowTask" value="Review" />
@@ -9139,6 +9355,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
@@ -9270,6 +9490,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="Kaleo Forms Process" />
 		</execute>
@@ -9385,6 +9609,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
@@ -9560,6 +9788,10 @@
 
 		<execute macro="KaleoFormsAdmin#saveProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcess">

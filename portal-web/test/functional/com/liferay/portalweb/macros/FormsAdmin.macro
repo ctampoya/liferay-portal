@@ -228,6 +228,7 @@
 		</execute>
 
 		<execute macro="FormFields#viewTextValue">
+			<var name="fieldLabel" value="${fieldLabel}" />
 			<var name="fieldName" value="${fieldName}" />
 			<var name="fieldValue" value="${fieldValue}" />
 		</execute>

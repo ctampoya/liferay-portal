@@ -4989,7 +4989,9 @@
 			<var name="fieldFieldLabel" value="Fieldset" />
 		</execute>
 
-		<execute macro="KaleoFormsAdmin#saveForm" />
+		<execute macro="KaleoFormsAdmin#saveForm">
+			<var name="workflowTask" value="review" />
+		</execute>
 
 		<execute macro="KaleoFormsAdmin#chooseForm">
 			<var name="kfFormName" value="Review Task Form" />
@@ -7086,7 +7088,9 @@
 			<var name="fieldFieldLabel" value="Quantity" />
 		</execute>
 
-		<execute macro="KaleoFormsAdmin#saveForm" />
+		<execute macro="KaleoFormsAdmin#saveForm">
+			<var name="workflowTask" value="review" />
+		</execute>
 
 		<execute macro="KaleoFormsAdmin#chooseForm">
 			<var name="kfFormName" value="Review Task Form" />

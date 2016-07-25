@@ -635,6 +635,7 @@
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcessFormsDeleted">
+			<var name="kfFormName" value="Created Task Form" />
 			<var name="kfProcessName" value="${kfProcessName}" />
 			<var name="workflowTask" value="create" />
 		</execute>
@@ -1172,6 +1173,7 @@
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#viewProcessFormsDeleted">
+			<var name="kfFormName" value="Created Task Form" />
 			<var name="kfProcessName" value="${kfProcessName}" />
 			<var name="workflowTask" value="create" />
 		</execute>

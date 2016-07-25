@@ -589,7 +589,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
-		<execute macro="DDLTemplate#tearDownTemplateCP" />
+		<execute macro="KaleoFormsAdmin#deleteForm">
+			<var name="kfFieldSetName" value="${kfFieldSetName}" />
+			<var name="kfFormName" value="Created Task Form" />
+		</execute>
 
 		<execute macro="Navigator#openURL" />
 
@@ -785,7 +788,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
-		<execute macro="DDLTemplate#tearDownTemplateCP" />
+		<execute macro="KaleoFormsAdmin#deleteForm">
+			<var name="kfFieldSetName" value="${ddlDataDefinitionName}" />
+			<var name="kfFormName" value="Created Task Form" />
+		</execute>
 
 		<execute macro="DDLDataDefinition#tearDownCP">
 			<var name="kfProcessExists" value="true" />
@@ -799,6 +805,19 @@
 
 		<execute macro="KaleoFormsAdmin#viewProcess">
 			<var name="kfProcessName" value="${kfProcessName}" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
+		</execute>
+
+		<execute macro="KaleoFormsAdmin#deleteForm">
+			<var name="kfFieldSetName" value="${ddlDataDefinitionName} Edit" />
+			<var name="kfFormName" value="Created Task Form" />
+		</execute>
+
+		<execute macro="ProductMenu#gotoSitesContent">
+			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
 		<execute macro="KaleoFormsAdmin#deleteProcess">
@@ -947,7 +966,10 @@
 			<var name="kfProcessName" value="${kfProcessName}" />
 		</execute>
 
-		<execute macro="DDLTemplate#tearDownTemplateCP" />
+		<execute macro="KaleoFormsAdmin#deleteForm">
+			<var name="kfFieldSetName" value="${kfFieldSetName}" />
+			<var name="kfFormName" value="Created Task Form" />
+		</execute>
 
 		<execute macro="DDLDataDefinition#tearDownCP">
 			<var name="kfProcessExists" value="true" />
@@ -1044,7 +1066,10 @@
 			<var name="portlet" value="Kaleo Forms Admin" />
 		</execute>
 
-		<execute macro="DDLTemplate#tearDownTemplateCP" />
+		<execute macro="KaleoFormsAdmin#deleteForm">
+			<var name="kfFieldSetName" value="${kfFieldSetName}" />
+			<var name="kfFormName" value="Created Task Form" />
+		</execute>
 
 		<execute macro="Navigator#openURL" />
 

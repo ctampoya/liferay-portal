@@ -619,6 +619,8 @@
 	</command>
 
 	<command name="AssignRolePermissionsApprovePG" priority="5">
+		<property name="test.name.skip.portal.instance" value="KaleoformsUsecase#AssignRolePermissionsApprovePG" />
+
 		<var name="kfFieldSetName" value="Field Set Data Definition" />
 		<var name="kfProcessName" value="Kaleo Forms Process" />
 
@@ -1020,6 +1022,8 @@
 	</command>
 
 	<command name="AssignRolePermissionsRejectPG" priority="5">
+		<property name="test.name.skip.portal.instance" value="KaleoformsUsecase#AssignRolePermissionsRejectPG" />
+
 		<var name="kfFieldSetName" value="Field Set Data Definition" />
 		<var name="kfProcessName" value="Kaleo Forms Process" />
 
@@ -1216,6 +1220,8 @@
 	</command>
 
 	<command name="AssignRolePermissionsSubmitProcessPG" priority="4">
+		<property name="test.name.skip.portal.instance" value="KaleoformsUsecase#AssignRolePermissionsSubmitProcessPG" />
+
 		<var name="kfFieldSetName" value="Field Set Data Definition" />
 		<var name="kfProcessName" value="Kaleo Forms Process" />
 
@@ -7907,6 +7913,7 @@
 		<description message="This is a use case for LPS-50688 and LPS-35263." />
 
 		<property name="test.assert.javascript.errors" value="false" />
+		<property name="test.name.skip.portal.instance" value="KaleoformsUsecase#ViewEmailNotificationSentToTaskAssignees" />
 
 		<var name="field" value="Text" />
 		<var name="fieldFieldLabel" value="Text" />

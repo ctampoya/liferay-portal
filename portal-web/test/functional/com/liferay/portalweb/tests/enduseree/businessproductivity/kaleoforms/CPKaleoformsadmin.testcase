@@ -3,6 +3,7 @@
 	<property name="testray.main.component.name" value="Kaleo Forms Admin" />
 
 	<var name="workflowAssetType" value="Process" />
+	<var name="kfFieldSetName" value="New Kaleo Field Set" />
 
 	<set-up>
 		<execute macro="TestCase#setUpPortalInstance" />

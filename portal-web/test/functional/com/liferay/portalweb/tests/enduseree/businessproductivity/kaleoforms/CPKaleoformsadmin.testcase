@@ -2,6 +2,8 @@
 	<property name="portal.release" value="true" />
 	<property name="testray.main.component.name" value="Kaleo Forms Admin" />
 
+	<property name="c.t" value="true" />
+
 	<var name="workflowAssetType" value="Process" />
 	<var name="kfFieldSetName" value="New Kaleo Field Set" />
 

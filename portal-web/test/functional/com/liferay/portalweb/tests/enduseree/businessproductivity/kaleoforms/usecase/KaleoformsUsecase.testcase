@@ -2451,7 +2451,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="Page#gotoMyAccount">
@@ -2469,7 +2469,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="Page#gotoMyAccount">
@@ -5359,7 +5359,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="Page#gotoMyAccount">
@@ -5377,7 +5377,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="Page#gotoMyAccount">
@@ -5424,7 +5424,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="Page#gotoMyAccount">
@@ -6576,7 +6576,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="Navigator#openURL" />
@@ -6610,7 +6610,7 @@
 		</execute>
 
 		<execute macro="WorkflowAsset#viewNotification">
-			<var name="contentBody" value="Test Test sent you a Kaleo Forms Process for review in the workflow." />
+			<var name="contentBody" value="Test Test sent you a Process for review in the workflow." />
 		</execute>
 
 		<execute macro="WorkflowAsset#gotoViaNotification">

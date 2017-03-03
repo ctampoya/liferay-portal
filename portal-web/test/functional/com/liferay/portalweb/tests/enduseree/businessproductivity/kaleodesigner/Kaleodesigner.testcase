@@ -1347,36 +1347,6 @@
 		</execute>
 	</command>
 
-	<command name="ViewDefinitionTemplateCDATARemainsWhenViewingSourceTab" priority="4">
-		<description message="This is a use case for LPS-45514." />
-
-		<execute macro="ProductMenu#gotoControlPanelConfiguration">
-			<var name="portlet" value="Workflow Definition" />
-		</execute>
-
-		<execute macro="Workflow#uploadDefinition">
-			<var name="workflowDefinitionFile" value="workflow_definition_2.xml" />
-			<var name="workflowDefinitionTitle" value="Uploaded Definition" />
-		</execute>
-
-		<execute macro="Workflow#viewDefinition">
-			<var name="workflowDefinitionName" value="Send Content For Posting" />
-			<var name="workflowDefinitionTitle" value="Uploaded Definition" />
-			<var name="workflowDefinitionVersionNumber" value="1" />
-		</execute>
-
-		<execute macro="KaleoDesigner#editWorkflowDefinitionViaWorkflowCP">
-			<var name="workflowDefinitionTitle" value="Uploaded Definition" />
-		</execute>
-
-		<execute macro="KaleoDesigner#viewSourceXMLTab" />
-
-		<execute macro="KaleoDesigner#viewSourceXMLLine">
-			<var name="kdSourceXML" ><![CDATA[<![CDATA[The file sent by]]></var>
-			<var name="line" value="16" />
-		</execute>
-	</command>
-
 	<command name="ViewNewUploadedDefinitionDoesNotContainDataFromDeletedDefinition" priority="4">
 		<description message="This is a use case for LPS-45676." />
 
